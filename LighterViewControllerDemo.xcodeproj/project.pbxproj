@@ -16,6 +16,21 @@
 		491B929717953B8400A0718B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 491B929617953B8400A0718B /* Default.png */; };
 		491B929917953B8400A0718B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 491B929817953B8400A0718B /* Default@2x.png */; };
 		491B929B17953B8400A0718B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 491B929A17953B8400A0718B /* Default-568h@2x.png */; };
+		491B92A517953C0000A0718B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 491B92A317953C0000A0718B /* MainViewController.m */; };
+		491B92A617953C0000A0718B /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 491B92A417953C0000A0718B /* MainViewController.xib */; };
+		491B92AC1795435200A0718B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491B928417953B8400A0718B /* UIKit.framework */; };
+		491B92AD1795435200A0718B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491B928617953B8400A0718B /* Foundation.framework */; };
+		491B92AE1795435200A0718B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491B928817953B8400A0718B /* CoreGraphics.framework */; };
+		491B92B41795435200A0718B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 491B92B21795435200A0718B /* InfoPlist.strings */; };
+		491B92BC1795435300A0718B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 491B92BB1795435300A0718B /* Default.png */; };
+		491B92BE1795435300A0718B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 491B92BD1795435300A0718B /* Default@2x.png */; };
+		491B92C01795435300A0718B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 491B92BF1795435300A0718B /* Default-568h@2x.png */; };
+		491B92C51795440900A0718B /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491B92C41795440900A0718B /* GHUnitIOS.framework */; };
+		491B92CA1795481500A0718B /* GHUnitIOSTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 491B92C91795481500A0718B /* GHUnitIOSTestMain.m */; };
+		491B92CC179548DB00A0718B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491B92CB179548DB00A0718B /* QuartzCore.framework */; };
+		491B92D0179549AE00A0718B /* DemoTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 491B92CF179549AE00A0718B /* DemoTest.m */; };
+		491B92DD17955CD300A0718B /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 491B92D317954D7E00A0718B /* libOCMock.a */; };
+		49EBFC581797DC8600F72F0F /* OCHamcrestIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49EBFC571797DC8600F72F0F /* OCHamcrestIOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +47,28 @@
 		491B929617953B8400A0718B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		491B929817953B8400A0718B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		491B929A17953B8400A0718B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		491B92A217953C0000A0718B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		491B92A317953C0000A0718B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		491B92A417953C0000A0718B /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		491B92AB1795435200A0718B /* LighterViewControllerDemoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LighterViewControllerDemoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		491B92B11795435200A0718B /* LighterViewControllerDemoTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LighterViewControllerDemoTest-Info.plist"; sourceTree = "<group>"; };
+		491B92B31795435200A0718B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		491B92B71795435200A0718B /* LighterViewControllerDemoTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LighterViewControllerDemoTest-Prefix.pch"; sourceTree = "<group>"; };
+		491B92BB1795435300A0718B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		491B92BD1795435300A0718B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		491B92BF1795435300A0718B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		491B92C41795440900A0718B /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = ../../../../materials/iOS/GHUnitIOS.framework; sourceTree = "<group>"; };
+		491B92C91795481500A0718B /* GHUnitIOSTestMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHUnitIOSTestMain.m; sourceTree = "<group>"; };
+		491B92CB179548DB00A0718B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		491B92CF179549AE00A0718B /* DemoTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTest.m; sourceTree = "<group>"; };
+		491B92D317954D7E00A0718B /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
+		491B92D517954D7E00A0718B /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		491B92D617954D7E00A0718B /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		491B92D717954D7E00A0718B /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		491B92D817954D7E00A0718B /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		491B92D917954D7E00A0718B /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
+		491B92DA17954D7E00A0718B /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
+		49EBFC571797DC8600F72F0F /* OCHamcrestIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCHamcrestIOS.framework; path = "../../../../materials/iOS/OCHamcrest-2.1.0/OCHamcrestIOS.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +82,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		491B92A81795435200A0718B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49EBFC581797DC8600F72F0F /* OCHamcrestIOS.framework in Frameworks */,
+				491B92DD17955CD300A0718B /* libOCMock.a in Frameworks */,
+				491B92CC179548DB00A0718B /* QuartzCore.framework in Frameworks */,
+				491B92C51795440900A0718B /* GHUnitIOS.framework in Frameworks */,
+				491B92AC1795435200A0718B /* UIKit.framework in Frameworks */,
+				491B92AD1795435200A0718B /* Foundation.framework in Frameworks */,
+				491B92AE1795435200A0718B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -52,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				491B928A17953B8400A0718B /* LighterViewControllerDemo */,
+				491B92AF1795435200A0718B /* LighterViewControllerDemoTest */,
 				491B928317953B8400A0718B /* Frameworks */,
 				491B928217953B8400A0718B /* Products */,
 			);
@@ -61,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				491B928117953B8400A0718B /* LighterViewControllerDemo.app */,
+				491B92AB1795435200A0718B /* LighterViewControllerDemoTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,6 +131,7 @@
 		491B928A17953B8400A0718B /* LighterViewControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				491B92A117953BD100A0718B /* ViewController */,
 				491B929317953B8400A0718B /* AppDelegate.h */,
 				491B929417953B8400A0718B /* AppDelegate.m */,
 				491B928B17953B8400A0718B /* Supporting Files */,
@@ -99,6 +153,82 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		491B92A117953BD100A0718B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				491B92A217953C0000A0718B /* MainViewController.h */,
+				491B92A317953C0000A0718B /* MainViewController.m */,
+				491B92A417953C0000A0718B /* MainViewController.xib */,
+			);
+			name = ViewController;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		491B92AF1795435200A0718B /* LighterViewControllerDemoTest */ = {
+			isa = PBXGroup;
+			children = (
+				491B92C91795481500A0718B /* GHUnitIOSTestMain.m */,
+				491B92CD1795498800A0718B /* Demo */,
+				491B92DC17954E1D00A0718B /* Libraries */,
+				491B92C61795442600A0718B /* Frameworks */,
+				491B92B01795435200A0718B /* Supporting Files */,
+			);
+			path = LighterViewControllerDemoTest;
+			sourceTree = "<group>";
+		};
+		491B92B01795435200A0718B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				491B92B11795435200A0718B /* LighterViewControllerDemoTest-Info.plist */,
+				491B92B21795435200A0718B /* InfoPlist.strings */,
+				491B92B71795435200A0718B /* LighterViewControllerDemoTest-Prefix.pch */,
+				491B92BB1795435300A0718B /* Default.png */,
+				491B92BD1795435300A0718B /* Default@2x.png */,
+				491B92BF1795435300A0718B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		491B92C61795442600A0718B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49EBFC571797DC8600F72F0F /* OCHamcrestIOS.framework */,
+				491B92CB179548DB00A0718B /* QuartzCore.framework */,
+				491B92C41795440900A0718B /* GHUnitIOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		491B92CD1795498800A0718B /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				491B92CF179549AE00A0718B /* DemoTest.m */,
+			);
+			name = Demo;
+			sourceTree = "<group>";
+		};
+		491B92D417954D7E00A0718B /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				491B92D517954D7E00A0718B /* NSNotificationCenter+OCMAdditions.h */,
+				491B92D617954D7E00A0718B /* OCMArg.h */,
+				491B92D717954D7E00A0718B /* OCMConstraint.h */,
+				491B92D817954D7E00A0718B /* OCMock.h */,
+				491B92D917954D7E00A0718B /* OCMockObject.h */,
+				491B92DA17954D7E00A0718B /* OCMockRecorder.h */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
+		491B92DC17954E1D00A0718B /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				491B92D317954D7E00A0718B /* libOCMock.a */,
+				491B92D417954D7E00A0718B /* OCMock */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -117,6 +247,23 @@
 			name = LighterViewControllerDemo;
 			productName = LighterViewControllerDemo;
 			productReference = 491B928117953B8400A0718B /* LighterViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		491B92AA1795435200A0718B /* LighterViewControllerDemoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 491B92C11795435300A0718B /* Build configuration list for PBXNativeTarget "LighterViewControllerDemoTest" */;
+			buildPhases = (
+				491B92A71795435200A0718B /* Sources */,
+				491B92A81795435200A0718B /* Frameworks */,
+				491B92A91795435200A0718B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LighterViewControllerDemoTest;
+			productName = LighterViewControllerDemoTest;
+			productReference = 491B92AB1795435200A0718B /* LighterViewControllerDemoTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -141,6 +288,7 @@
 			projectRoot = "";
 			targets = (
 				491B928017953B8400A0718B /* LighterViewControllerDemo */,
+				491B92AA1795435200A0718B /* LighterViewControllerDemoTest */,
 			);
 		};
 /* End PBXProject section */
@@ -154,6 +302,18 @@
 				491B929717953B8400A0718B /* Default.png in Resources */,
 				491B929917953B8400A0718B /* Default@2x.png in Resources */,
 				491B929B17953B8400A0718B /* Default-568h@2x.png in Resources */,
+				491B92A617953C0000A0718B /* MainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491B92A91795435200A0718B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491B92B41795435200A0718B /* InfoPlist.strings in Resources */,
+				491B92BC1795435300A0718B /* Default.png in Resources */,
+				491B92BE1795435300A0718B /* Default@2x.png in Resources */,
+				491B92C01795435300A0718B /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +326,16 @@
 			files = (
 				491B929117953B8400A0718B /* main.m in Sources */,
 				491B929517953B8400A0718B /* AppDelegate.m in Sources */,
+				491B92A517953C0000A0718B /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491B92A71795435200A0718B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491B92CA1795481500A0718B /* GHUnitIOSTestMain.m in Sources */,
+				491B92D0179549AE00A0718B /* DemoTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +346,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				491B928E17953B8400A0718B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		491B92B21795435200A0718B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				491B92B31795435200A0718B /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -261,6 +439,60 @@
 			};
 			name = Release;
 		};
+		491B92C21795435300A0718B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/LighterViewControllerDemoTest/\"",
+					"\"$(SRCROOT)/../../../materials/iOS\"",
+					"\"$(SRCROOT)/../../../materials/iOS/OCHamcrest-2.1.0\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LighterViewControllerDemoTest/LighterViewControllerDemoTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/LighterViewControllerDemoTest/\"/**";
+				INFOPLIST_FILE = "LighterViewControllerDemoTest/LighterViewControllerDemoTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/LighterViewControllerDemoTest\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		491B92C31795435300A0718B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/LighterViewControllerDemoTest/\"",
+					"\"$(SRCROOT)/../../../materials/iOS\"",
+					"\"$(SRCROOT)/../../../materials/iOS/OCHamcrest-2.1.0\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LighterViewControllerDemoTest/LighterViewControllerDemoTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/LighterViewControllerDemoTest/\"/**";
+				INFOPLIST_FILE = "LighterViewControllerDemoTest/LighterViewControllerDemoTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/LighterViewControllerDemoTest\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -280,6 +512,16 @@
 				491B92A017953B8400A0718B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		491B92C11795435300A0718B /* Build configuration list for PBXNativeTarget "LighterViewControllerDemoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491B92C21795435300A0718B /* Debug */,
+				491B92C31795435300A0718B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
