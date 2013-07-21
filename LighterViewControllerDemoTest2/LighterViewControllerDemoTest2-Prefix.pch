@@ -1,0 +1,12 @@
+//
+// Prefix header for all source files of the 'LighterViewControllerDemoTest2' target in the 'LighterViewControllerDemoTest2' project
+//
+
+
+#define HC_SHORTHAND
+#import <OCHamcrestIOS/OCHamcrestIOS.h>
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif

@@ -7,9 +7,14 @@
 		<key>LighterViewControllerDemo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<key>LighterViewControllerDemoTest.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>LighterViewControllerDemoTest2.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
@@ -23,6 +28,26 @@
 			<true/>
 		</dict>
 		<key>491B92AA1795435200A0718B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>497322CC179ABD6100DEC080</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>49EBFC651797F7E400F72F0F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>49EC8F60179BE7AA008072EA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>49EC8F9B179BED54008072EA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
