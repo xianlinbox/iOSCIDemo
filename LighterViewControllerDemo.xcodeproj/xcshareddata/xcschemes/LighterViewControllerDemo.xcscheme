@@ -20,6 +20,20 @@
                ReferencedContainer = "container:LighterViewControllerDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "491B92AA1795435200A0718B"
+               BuildableName = "LighterViewControllerDemoTest.app"
+               BlueprintName = "LighterViewControllerDemoTest"
+               ReferencedContainer = "container:LighterViewControllerDemo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
