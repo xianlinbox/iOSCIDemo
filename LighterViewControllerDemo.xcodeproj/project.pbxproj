@@ -14,16 +14,13 @@
 		491B92CA1795481500A0718B /* GHUnitIOSTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 491B92C91795481500A0718B /* GHUnitIOSTestMain.m */; };
 		491B92CC179548DB00A0718B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491B92CB179548DB00A0718B /* QuartzCore.framework */; };
 		491B92D0179549AE00A0718B /* DemoTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 491B92CF179549AE00A0718B /* DemoTest.m */; };
-		491B92DD17955CD300A0718B /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 491B92D317954D7E00A0718B /* libOCMock.a */; };
 		497322C5179AA39700DEC080 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 497322C4179AA39700DEC080 /* Default-568h@2x.png */; };
-		49EBFC581797DC8600F72F0F /* OCHamcrestIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49EBFC571797DC8600F72F0F /* OCHamcrestIOS.framework */; };
 		49EBFC601797E99000F72F0F /* CaculatorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EBFC5F1797E99000F72F0F /* CaculatorTest.m */; };
 		49EC8F62179BE7AA008072EA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49EBFC671797F7E400F72F0F /* SenTestingKit.framework */; };
 		49EC8F63179BE7AA008072EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491B928417953B8400A0718B /* UIKit.framework */; };
 		49EC8F64179BE7AA008072EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491B928617953B8400A0718B /* Foundation.framework */; };
 		49EC8F6A179BE7AA008072EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49EC8F68179BE7AA008072EA /* InfoPlist.strings */; };
 		49EC8F75179BE804008072EA /* CaculatorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC8F74179BE804008072EA /* CaculatorTest.m */; };
-		49EC8F76179BE846008072EA /* OCHamcrestIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49EBFC571797DC8600F72F0F /* OCHamcrestIOS.framework */; };
 		49EC8F97179BEA58008072EA /* BasicTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC8F95179BEA58008072EA /* BasicTest.m */; };
 		49EC8F9D179BED54008072EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491B928417953B8400A0718B /* UIKit.framework */; };
 		49EC8F9E179BED54008072EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491B928617953B8400A0718B /* Foundation.framework */; };
@@ -37,7 +34,10 @@
 		49EC8FB8179BED91008072EA /* Caculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC8FB7179BED91008072EA /* Caculator.m */; };
 		49EC8FB9179BED91008072EA /* Caculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC8FB7179BED91008072EA /* Caculator.m */; };
 		49EC8FBA179BED91008072EA /* Caculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC8FB7179BED91008072EA /* Caculator.m */; };
-		49EC8FBD179BF31C008072EA /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49EC8FBC179BF31C008072EA /* libOCMock.a */; };
+		49EC8FC0179C006C008072EA /* OCHamcrestIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49EC8FBF179C006C008072EA /* OCHamcrestIOS.framework */; };
+		49EC8FC1179C008E008072EA /* OCHamcrestIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49EC8FBF179C006C008072EA /* OCHamcrestIOS.framework */; };
+		49EC8FC2179C009C008072EA /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 491B92D317954D7E00A0718B /* libOCMock.a */; };
+		49EC8FC3179C00B0008072EA /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 491B92D317954D7E00A0718B /* libOCMock.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +83,7 @@
 		49EC8FB6179BED91008072EA /* Caculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Caculator.h; sourceTree = "<group>"; };
 		49EC8FB7179BED91008072EA /* Caculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Caculator.m; sourceTree = "<group>"; };
 		49EC8FBC179BF31C008072EA /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = ../../../materials/iOS/OCMock/iOS/libOCMock.a; sourceTree = "<group>"; };
+		49EC8FBF179C006C008072EA /* OCHamcrestIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCHamcrestIOS.framework; path = Frameworks/OCHamcrestIOS.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +91,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49EBFC581797DC8600F72F0F /* OCHamcrestIOS.framework in Frameworks */,
-				491B92DD17955CD300A0718B /* libOCMock.a in Frameworks */,
+				49EC8FC3179C00B0008072EA /* libOCMock.a in Frameworks */,
+				49EC8FC0179C006C008072EA /* OCHamcrestIOS.framework in Frameworks */,
 				491B92CC179548DB00A0718B /* QuartzCore.framework in Frameworks */,
 				491B92C51795440900A0718B /* GHUnitIOS.framework in Frameworks */,
 				491B92AC1795435200A0718B /* UIKit.framework in Frameworks */,
@@ -104,8 +105,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49EC8FBD179BF31C008072EA /* libOCMock.a in Frameworks */,
-				49EC8F76179BE846008072EA /* OCHamcrestIOS.framework in Frameworks */,
+				49EC8FC2179C009C008072EA /* libOCMock.a in Frameworks */,
+				49EC8FC1179C008E008072EA /* OCHamcrestIOS.framework in Frameworks */,
 				49EC8F62179BE7AA008072EA /* SenTestingKit.framework in Frameworks */,
 				49EC8F63179BE7AA008072EA /* UIKit.framework in Frameworks */,
 				49EC8F64179BE7AA008072EA /* Foundation.framework in Frameworks */,
@@ -128,6 +129,7 @@
 		491B927817953B8400A0718B = {
 			isa = PBXGroup;
 			children = (
+				49EC8FBF179C006C008072EA /* OCHamcrestIOS.framework */,
 				49EC8FBC179BF31C008072EA /* libOCMock.a */,
 				49EC8FA0179BED54008072EA /* LighterViewControllerDemo */,
 				491B92AF1795435200A0718B /* LighterViewControllerDemoTest */,
@@ -545,6 +547,7 @@
 					"\"$(SRCROOT)/LighterViewControllerDemoTest/\"",
 					"\"$(SRCROOT)/../../../materials/iOS\"",
 					"\"$(SRCROOT)/../../../materials/iOS/OCHamcrest-2.1.0\"",
+					"\"$(SRCROOT)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LighterViewControllerDemoTest/LighterViewControllerDemoTest-Prefix.pch";
@@ -574,6 +577,7 @@
 					"\"$(SRCROOT)/LighterViewControllerDemoTest/\"",
 					"\"$(SRCROOT)/../../../materials/iOS\"",
 					"\"$(SRCROOT)/../../../materials/iOS/OCHamcrest-2.1.0\"",
+					"\"$(SRCROOT)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LighterViewControllerDemoTest/LighterViewControllerDemoTest-Prefix.pch";
@@ -600,6 +604,7 @@
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 					"\"$(SRCROOT)/../../../materials/iOS/OCHamcrest-2.1.0\"",
+					"\"$(SRCROOT)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LighterViewControllerDemoTest2/LighterViewControllerDemoTest2-Prefix.pch";
@@ -626,6 +631,7 @@
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 					"\"$(SRCROOT)/../../../materials/iOS/OCHamcrest-2.1.0\"",
+					"\"$(SRCROOT)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LighterViewControllerDemoTest2/LighterViewControllerDemoTest2-Prefix.pch";
