@@ -4,17 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>LighterViewControllerDemo.xcscheme</key>
+		<key>LighterViewControllerDemo.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
-		<key>LighterViewControllerDemoTest.xcscheme</key>
+		<key>LighterViewControllerDemoTest.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>LighterViewControllerDemoTest2.xcscheme</key>
+		<key>LighterViewControllerDemoTest2.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
